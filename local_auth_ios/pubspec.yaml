@@ -25,6 +25,7 @@ dependencies:
     git:
       url: git@github.com:iouring-engineering/flutter-local_auth.git
       path: local_auth_platform_interface
+      ref: develop
 
 dev_dependencies:
   flutter_test:
