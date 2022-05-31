@@ -25,13 +25,21 @@ dependencies:
     sdk: flutter
   intl: ^0.17.0
   local_auth_android:
-    path: ./local_auth_android
+    git:
+      url: git@github.com:iouring-engineering/flutter-local_auth.git
+      path: local_auth_android
   local_auth_ios:
-    path: ./local_auth_ios
+    git:
+      url: git@github.com:iouring-engineering/flutter-local_auth.git
+      path: local_auth_ios
   local_auth_platform_interface:
-    path: ./local_auth_platform_interface
+    git:
+      url: git@github.com:iouring-engineering/flutter-local_auth.git
+      path: local_auth_platform_interface
   local_auth_windows:
-    path: ./local_auth_windows
+    git:
+      url: git@github.com:iouring-engineering/flutter-local_auth.git
+      path: local_auth_windows
 
 dev_dependencies:
   flutter_driver:
