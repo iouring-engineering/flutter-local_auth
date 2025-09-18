@@ -23,7 +23,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.20.2
+  intl: ^0.17.0
   local_auth_android:
     path: ./local_auth_android
   local_auth_ios:
