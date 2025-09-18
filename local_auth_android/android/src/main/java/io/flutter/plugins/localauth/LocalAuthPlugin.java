@@ -27,7 +27,7 @@ import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
+//import io.flutter.plugin.common.PluginRegistry.Registrar;
 import io.flutter.plugins.localauth.AuthenticationHelper.AuthCompletionHandler;
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -78,14 +78,14 @@ public class LocalAuthPlugin implements MethodCallHandler, FlutterPlugin, Activi
    *     io.flutter.plugin.common.MethodChannel.MethodCallHandler} to the registrar's {@link
    *     io.flutter.plugin.common.BinaryMessenger}.
    */
-  @SuppressWarnings("deprecation")
-  public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), CHANNEL_NAME);
-    final LocalAuthPlugin plugin = new LocalAuthPlugin();
-    plugin.activity = registrar.activity();
-    channel.setMethodCallHandler(plugin);
-    registrar.addActivityResultListener(plugin.resultListener);
-  }
+//  @SuppressWarnings("deprecation")
+//  public static void registerWith(Registrar registrar) {
+//    final MethodChannel channel = new MethodChannel(registrar.messenger(), CHANNEL_NAME);
+//    final LocalAuthPlugin plugin = new LocalAuthPlugin();
+//    plugin.activity = registrar.activity();
+//    channel.setMethodCallHandler(plugin);
+//    registrar.addActivityResultListener(plugin.resultListener);
+//  }
 
   /**
    * Default constructor for LocalAuthPlugin.
