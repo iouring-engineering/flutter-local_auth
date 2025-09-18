@@ -20,7 +20,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.20.2
   local_auth_platform_interface:
     git:
       url: https://github.com/iouring-engineering/flutter-local_auth.git
