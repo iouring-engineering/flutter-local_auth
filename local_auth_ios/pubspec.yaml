@@ -19,7 +19,7 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.20.2
   local_auth_platform_interface:
     path: ../local_auth_platform_interface
 
